@@ -1,0 +1,27 @@
+---
+name: FETCH_CATALOG_VAR
+runner_type: python-script
+enabled: true
+entry_point: FETCH_CATALOG_VAR.py
+description: Custom script for fetching Catalog variables from Ticket
+parameters:
+    InstanceName:
+        type: string
+        required: true
+        description: ServiceNow Instance name
+    UserName:
+        type: string
+        required: true
+        description: ServiceNow User name
+    Password:
+        type: string
+        required: true
+        description: ServiceNow Password
+    TicketNumer:
+        type: string
+        required: true
+        description: ServiceNow Ticket Number (RITM or SCTASK)
+    variableNames:
+        type: string
+        required: true
+        description: Comma seperated variables to fetcch from catalog task
