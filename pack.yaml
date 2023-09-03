@@ -1,0 +1,17 @@
+---
+ref: st2_practice
+name: StackStorm ServiceNow Integration
+description: This pack id for StackStorm ServiceNow Integration.
+keywords:
+  - StackStorm
+  - ServiceNow
+dependencies:
+  - core
+version: 1.0.0
+python_versions:
+  - "2"
+  - "3"
+author: Mohit Singhal
+email: mohitsinghal55478@gmail.com
+contributors:
+  - Mohit Singhal <mohitsinghal55478@gmail.com>
