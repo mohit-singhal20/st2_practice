@@ -1,0 +1,27 @@
+---
+name: DOWNLOAD_ATTACHMENT
+runner_type: python-script
+enabled: true
+entry_point: "DOWNLOAD_ATTACHMENT.py"
+description: Custom script for Downloading Attaching from ServiceNow record
+parameters:
+    InstanceName:
+       type: string
+       required: true
+       description: ServiceNow Instance name
+    UserName:
+       type: string
+       required: true
+       description: ServiceNow User name
+    Password:
+       type: string
+       required: true
+       description: ServiceNow Password
+    DOWNLOAD_DIR:
+       type: string
+       required: true
+       description: directory Path Where all the Attachments will be Download
+    TicketNumer:
+       type: string
+       required: true  
+       description: ServiceNow Ticket Number 
